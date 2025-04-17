@@ -1,0 +1,12 @@
+[project]
+name = "python-ft-deps"
+version = "0.1.0"
+description = "Check if your dependencies are free-threading compatible"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mousebender>=2025.0",
+    "packaging>=24.2",
+    "uv>=0.6.14",
+]
